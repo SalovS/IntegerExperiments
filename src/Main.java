@@ -7,6 +7,11 @@ public class Main {
         System.out.println("The sum of the digits of the number 12345 = " + sumDigits(12345));
         System.out.println("The sum of the digits of the number 10 = " + sumDigits(10));
         System.out.println("The sum of the digits of the number 5059191 = " + sumDigits(5059191));
+
+        sumDigitsFromTheText sumator = new sumDigitsFromTheText();
+        System.out.println(sumator.sumDigits(12345));
+        System.out.println(sumator.sumDigits(10));
+        System.out.println(sumator.sumDigits(5059191));
     }
 
     public static int sumDigits(int number)
